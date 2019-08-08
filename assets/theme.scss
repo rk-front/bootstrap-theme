@@ -1,12 +1,14 @@
 //run command to covert scss to css --> sass --watch assets/theme.scss:dist/style/theme.css
 // Required
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
+@import "components/variables.scss";
 
+//optional
 @import "../node_modules/bootstrap/scss/reboot.scss";
 @import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/navbar";
+@import "../node_modules/bootstrap/scss/nav";
+@import "../node_modules/bootstrap/scss/dropdown";
+@import "../node_modules/bootstrap/scss/forms";
 
-//our theming 
+//modified theme
 @import "components/button.scss";
-@import "components/variables.scss";
